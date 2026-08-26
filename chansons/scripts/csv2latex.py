@@ -20,7 +20,7 @@ TEX_SORTIE = Path("../lexique.tex")
 
 # Seules les entrées marquées OUI sont exportées.
 VALEUR_INCLURE = "OUI"
-
+col_n = 3   # Column number
 
 # ============================================================
 # OUTILS
@@ -196,12 +196,55 @@ def generer_entry(ligne):
 
 
 # ============================================================
+# GÉNÉRATION DE L'ALPHABET LATERAL
+# ============================================================
+
+def generer_liste_lettres(entrees):
+    """
+    Retourne les lettres de l'alphabet qui possèdent
+    au moins une entrée sélectionnée.
+    """
+
+    lettres = set()
+
+    for ligne in entrees:
+        lettre = premiere_lettre(ligne["entrée"])
+
+        if lettre:
+            lettres.add(lettre)
+
+    return "".join(
+        lettre
+        for lettre in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        if lettre in lettres
+    )
+
+# ============================================================
+# GÉNÉRATION INDICATEURS LETTRES
+# ============================================================
+
+def generer_indicateurs_lettres(entrees):
+    lettres = set()
+
+    for ligne in entrees:
+        lettre = premiere_lettre(ligne["entrée"])
+
+        if lettre:
+            lettres.add(lettre.upper())
+
+    presentes = "".join(
+        lettre
+        for lettre in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        if lettre in lettres
+    )
+
+    return f"\\def\\lettersWithEntries{{{presentes}}}"
+
+# ============================================================
 # INTERCALAIRE
 # ============================================================
 
 def debut_section(lettre):
-
-    col_n = 3   # Column number
 
     return f"""%----------------------------------------------------------------------------------------
 %	SECTION {lettre}
@@ -237,6 +280,27 @@ def generer_latex(entrees):
     )
 
     lignes = []
+
+    # Informations pour la réglette alphabétique
+    lignes.append(
+        generer_indicateurs_lettres(entrees)
+    )
+
+    lignes.append("")
+
+    lettres_presentes = generer_liste_lettres(entrees)
+
+    lignes = []
+
+
+    # Informations destinées à LaTeX
+    lignes.append(
+        f"\\def\\lettersWithEntries{{{lettres_presentes}}}\n"
+    )
+
+    lignes.append(
+        "% ==================================================\n"
+    )
 
     lettre_actuelle = None
 

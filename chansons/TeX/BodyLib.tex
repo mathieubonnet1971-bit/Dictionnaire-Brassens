@@ -1,0 +1,185 @@
+%=============================================== COLORS ===================================================
+% Defining colors
+\definecolor{headcolor}{RGB}{221, 101, 80}      % Header color
+\definecolor{titlecolor}{RGB}{82, 190, 128}     % Title initial color
+\definecolor{descrcolor}{RGB}{33, 33, 33}       % Description color
+\definecolor{brickred}{rgb}{0.8, 0.25, 0.33}    % Letter color
+\definecolor{wood}{RGB}{56, 93, 229}            % Letter color
+\definecolor{entrycolor1}{RGB}{41, 128, 185}    % Entry word color 1
+\definecolor{entrycolor2}{RGB}{35, 66, 94}      % Entry word color 2
+\definecolor{defcolor}{RGB}{44, 44, 44}         % Definition color
+\definecolor{autcolor}{rgb}{0.5,0.5,0.5}        % Author color
+\definecolor{excolor}{RGB}{58, 140, 101}        % Exemple color
+\definecolor{typecolor}{RGB}{125, 60, 152}      % Comment color
+\definecolor{rulecolor}{RGB}{122, 122, 122}     % Rule color
+\definecolor{bordercolor}{RGB}{222, 222, 222}   % Border color
+\definecolor{grey_50}{RGB}{50, 50, 50}          % Grey color
+\definecolor{grey_80}{RGB}{80, 80, 80}          % Grey letter color
+\definecolor{grey_120}{RGB}{120, 120, 120}      % Grey letter color
+\definecolor{grey_180}{RGB}{180, 180, 180}      % Grey letter color
+\definecolor{grey_190}{RGB}{190,190,190}
+\definecolor{grey_220}{RGB}{220, 220, 220}      % Grey letter color
+\definecolor{grey_178}{RGB}{178,178,178}        % Separator color
+% \definecolor{symbolcolor}{RGB}{88, 88, 88}      % 
+% \definecolor{autcolor}{RGB}{100, 100, 100}      % 
+%----------------------------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------------------------
+
+% Header
+\def\GetMarkWord#1#2#3#4{#1}
+\fancyhead[LO,LE]{%
+    \color{headcolor}\slshape
+    \expandafter\GetMarkWord\firstmark
+}
+
+\fancyhead[RE,RO]{%
+    \color{headcolor}\slshape
+    \expandafter\GetMarkWord\botmark
+}
+
+\pagestyle{fancy}
+
+
+% Footer
+\renewcommand{\headrulewidth}{1.00pt}\color{rulecolor} % Rule under the header
+\fancyfoot[C]{\textbf{\textsf{\thepage}}} % Bottom center footer
+\renewcommand{\footrulewidth}{1.00pt}\color{rulecolor} % Rule under the footer
+\pagestyle{fancy} % Use the custom headers and footers throughout the document
+
+% Redefining center
+\let\oldcenter\center
+\let\oldendcenter\endcenter
+\renewenvironment{center}{\setlength\topsep{-5pt}\oldcenter}{\oldendcenter}
+
+
+% Extracting entry first character
+\newcommand{\FirstChar}[1]{%
+    \StrLeft{#1}{1}[\firstletter]%
+    \StrRight{#1}{1}[\lastletter]%
+    \firstletter
+}
+
+% Circle
+\newcommand{\cornerCircle}{
+\begin{tikzpicture}
+\filldraw[color=brickred, fill=red!5, thick, opacity=0.7](-1,0) circle (0.44);
+\end{tikzpicture}
+}
+
+% Defining Left and Right marks
+\def \borderTextRight{\FirstChar{\rightmark}}
+\def \borderTextLeft{\FirstChar{\leftmark}}
+
+% Lettre colors
+\newcommand{\LetterColor}[1]{%
+    \ifcsname letter#1exists\endcsname
+        \color{grey_120}%
+    \else
+        \color{grey_180}%
+    \fi
+}
+
+% Borders
+\AddToShipoutPicture{% from package eso-pic: put something to the background
+	\ifthenelse{\isodd{\thepage}}{
+		% ODD page: right bar
+			\AtPageLowerLeft{% start the bar at the bottom right of the page
+			\put(\LenToUnit{\dimexpr\paperwidth-1cm},0){% move it to the top right
+				\color{bordercolor}\rule{1cm}{30cm}{\color{white}}%
+			}%
+             % ODD Side letters
+            \put(567,814){\rotatebox{0}{\cornerCircle}}
+            \color{brickred}\put(570,820){\rotatebox{0}{\scalebox{2}{{\centering\setlength{\fboxrule}{0pt}\framebox[0.47cm]{\borderTextRight}\par}}}}
+
+\foreach \w\y in {%
+ A/790,B/760,C/730,D/700,E/670,F/640,G/610,
+ H/580,I/550,J/520,K/490,L/460,M/430,N/400,
+ O/370,P/340,Q/310,R/280,S/250,T/220,U/190,
+ V/160,W/130,X/100,Y/70,Z/40%
+}{%
+    {%
+        \IfSubStr{\lettersWithEntries}{\w}
+            {\color{grey_120}}
+            {\color{grey_190}}%
+        \put(585,\y){%
+            \makebox(0,0){%
+                \scalebox{2}{\w}%
+            }%
+        }%
+    }%
+}%
+
+\put(567,4){\rotatebox{0}{\cornerCircle}}
+\color{brickred}
+\put(570,10){%
+    \rotatebox{0}{%
+        \scalebox{2}{%
+            {\centering
+            \setlength{\fboxrule}{0pt}
+            \framebox[0.47cm]{\borderTextLeft}
+            \par}
+        }
+    }
+}
+
+}%
+	
+	}%
+	{%
+	% EVEN page: left bar
+	\AtPageLowerLeft{% start the bar at the left bottom of the page
+ 	\color{bordercolor}\rule{1cm}{30cm}{\color{white}}%
+	    % EVEN Side letters
+            \put(-30.5,814){\rotatebox{0}{\cornerCircle}}
+            \color{brickred}\put(-27.8,820){\rotatebox{0}{\scalebox{2}{{\centering\setlength{\fboxrule}{0pt}\framebox[0.47cm]{\borderTextRight}\par}}}}
+
+\foreach \w\y in {%
+ A/790,B/760,C/730,D/700,E/670,F/640,G/610,
+ H/580,I/550,J/520,K/490,L/460,M/430,N/400,
+ O/370,P/340,Q/310,R/280,S/250,T/220,U/190,
+ V/160,W/130,X/100,Y/70,Z/40%
+}{%
+    {%
+        \IfSubStr{\lettersWithEntries}{\w}
+            {\color{grey_120}}
+            {\color{grey_190}}%
+        \put(-15,\y){%
+            \makebox(0,0){%
+                \scalebox{2}{\w}%
+            }%
+        }%
+    }%
+}%
+    
+\put(-30.5,4){\rotatebox{0}{\cornerCircle}}
+\color{brickred}
+\put(-27.8,10){%
+    \rotatebox{0}{%
+        \scalebox{2}{%
+            {\centering
+            \setlength{\fboxrule}{0pt}
+            \framebox[0.47cm]{\borderTextLeft}
+            \par}
+        }
+    }
+}
+
+        }
+	}%
+}
+
+% Fancy rules
+\newcommand{\sectionline}[3]{%
+  \noindent
+  \begin{center}
+  {\color{#1}
+    \resizebox{#3\linewidth}{1ex}
+    {{%
+    {\begin{tikzpicture}
+    \node  (C) at (0,0) {};
+    \node (D) at (9,0) {};
+    \path (C) to [ornament=#2] (D);
+    \end{tikzpicture}}}}}%
+    \end{center}
+  }
+

@@ -31,6 +31,10 @@
 
 \usepackage{xcolor} % Text color
 
+\usepackage{ifthen}
+\usepackage{eso-pic,graphicx}
+\usepackage{xstring}
+
 \usepackage{extramarks}
 \usepackage{tikz}
 \usepackage{xcolor}
@@ -47,6 +51,9 @@
 \renewcommand{\footrulewidth}{1.4pt} % Rule under the footer
 \pagestyle{fancy} % Use the custom headers and footers throughout the document
 
+% BodyLib
+\input{TeX/BodyLib}
+
 % Colors
 \definecolor{alphabetgray}{RGB}{150,150,150}
 \definecolor{alphabetactive}{RGB}{60,60,60}
@@ -54,123 +61,12 @@
 
 % Commands
 \newcommand{\entry}[6]{%
-    \par
     \leavevmode
-    \markboth{#1}{#1}%
-    \begin{minipage}{\linewidth}
-        \textbf{#1}\ {#2}\ \textit{#3}\ $\bullet$\ {#4} {#5} \textit{\color{gray}#6}%
-    \end{minipage}
+    \textbf{#1}%
+    \vadjust{\markboth{#1}{#1}}%
+        \ {#2}\ \textit{#3}\ $\bullet$\ {#4} {#5} \textit{\color{gray}#6}%
     \par
     \smallskip
-}
-
-\newcommand{\alphabetletter}[1]{%
-    \ifstrequal{\firstxmark}{#1}{%
-        \colorbox{alphabetbackground}{%
-            \textcolor{black}{\strut\bfseries #1}%
-        }%
-    }{%
-        \ifstrequal{\lastxmark}{#1}{%
-            \colorbox{alphabetbackground}{%
-                \textcolor{black}{\strut\bfseries #1}%
-            }%
-        }{%
-            {\color{alphabetgray}\strut #1}%
-        }%
-    }%
-}
-
-\newcommand{\alphabetvertical}{%
-    \begin{tikzpicture}[
-        remember picture,
-        overlay
-    ]
-
-        \ifodd\value{page}
-
-            % Page impaire : marge extérieure droite
-            \node[
-                anchor=east,
-                font=\sffamily\footnotesize,
-                align=center,
-                inner sep=0pt
-            ] at ([xshift=-8mm]current page.east |- current page.center) {%
-                \begin{tabular}{c}
-                    \alphabetletter{A}\\
-                    \alphabetletter{B}\\
-                    \alphabetletter{C}\\
-                    \alphabetletter{D}\\
-                    \alphabetletter{E}\\
-                    \alphabetletter{F}\\
-                    \alphabetletter{G}\\
-                    \alphabetletter{H}\\
-                    \alphabetletter{I}\\
-                    \alphabetletter{J}\\
-                    \alphabetletter{K}\\
-                    \alphabetletter{L}\\
-                    \alphabetletter{M}\\
-                    \alphabetletter{N}\\
-                    \alphabetletter{O}\\
-                    \alphabetletter{P}\\
-                    \alphabetletter{Q}\\
-                    \alphabetletter{R}\\
-                    \alphabetletter{S}\\
-                    \alphabetletter{T}\\
-                    \alphabetletter{U}\\
-                    \alphabetletter{V}\\
-                    \alphabetletter{W}\\
-                    \alphabetletter{X}\\
-                    \alphabetletter{Y}\\
-                    \alphabetletter{Z}
-                \end{tabular}%
-            };
-
-        \else
-
-            % Page paire : marge extérieure gauche
-            \node[
-                anchor=west,
-                font=\sffamily\footnotesize,
-                align=center,
-                inner sep=0pt
-            ] at ([xshift=8mm]current page.west |- current page.center) {%
-                \begin{tabular}{c}
-                    \alphabetletter{A}\\
-                    \alphabetletter{B}\\
-                    \alphabetletter{C}\\
-                    \alphabetletter{D}\\
-                    \alphabetletter{E}\\
-                    \alphabetletter{F}\\
-                    \alphabetletter{G}\\
-                    \alphabetletter{H}\\
-                    \alphabetletter{I}\\
-                    \alphabetletter{J}\\
-                    \alphabetletter{K}\\
-                    \alphabetletter{L}\\
-                    \alphabetletter{M}\\
-                    \alphabetletter{N}\\
-                    \alphabetletter{O}\\
-                    \alphabetletter{P}\\
-                    \alphabetletter{Q}\\
-                    \alphabetletter{R}\\
-                    \alphabetletter{S}\\
-                    \alphabetletter{T}\\
-                    \alphabetletter{U}\\
-                    \alphabetletter{V}\\
-                    \alphabetletter{W}\\
-                    \alphabetletter{X}\\
-                    \alphabetletter{Y}\\
-                    \alphabetletter{Z}
-                \end{tabular}%
-            };
-
-        \fi
-
-    \end{tikzpicture}%
-}
-
-\AddToHook{shipout/foreground}{%
-    \alphabetvertical
 }
 
 %----------------------------------------------------------------------------------------
