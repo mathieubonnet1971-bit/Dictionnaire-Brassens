@@ -1,0 +1,66 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dictionary
+% LaTeX Template
+% Version 1.0 (20/12/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Vel (vel@latextemplates.com) inspired by a template by Marc Lavaud
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,twoside]{article} % 10pt font size, A4 paper and two-sided margins
+
+\usepackage[top=2cm,bottom=1.8cm,left=2cm,right=2cm,columnsep=30pt]{geometry} % Document margins and spacings
+
+\usepackage{fontspec}
+
+\setmainfont{TeX Gyre Pagella}
+\usepackage{microtype} % Improves spacing
+
+\usepackage{multicol} % Required for splitting text into multiple columns
+
+\usepackage{xcolor} % Text color
+
+\usepackage[bf,sf,center]{titlesec} % Required for modifying section titles - bold, sans-serif, centered
+
+\usepackage{fancyhdr} % Required for modifying headers and footers
+\fancyhead[L]{\textsf{\rightmark}} % Top left header
+\fancyhead[R]{\textsf{\leftmark}} % Top right header
+\renewcommand{\headrulewidth}{1.4pt} % Rule under the header
+\fancyfoot[C]{\textbf{\textsf{\thepage}}} % Bottom center footer
+\renewcommand{\footrulewidth}{1.4pt} % Rule under the footer
+\pagestyle{fancy} % Use the custom headers and footers throughout the document
+
+\newcommand{\entry}[6]{%
+    \par
+    \leavevmode
+    \markboth{#1}{#1}%
+    \begin{minipage}{\linewidth}
+        \textbf{#1}\ {#2}\ \textit{#3}\ $\bullet$\ {#4} {#5} \textit{\color{gray}#6}%
+    \end{minipage}
+    \par
+    \smallskip
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center}
+{\Large Dictionnaire des termes trouvés dans les chansons de Georges Brassens}
+\end{center}
+
+\input{lexique.tex}
+
+%------------------------------------------------
+\end{document}
