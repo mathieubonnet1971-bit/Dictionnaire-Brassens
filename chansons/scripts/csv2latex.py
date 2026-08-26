@@ -201,13 +201,15 @@ def generer_entry(ligne):
 
 def debut_section(lettre):
 
+    col_n = 3   # Column number
+
     return f"""%----------------------------------------------------------------------------------------
 %	SECTION {lettre}
 %----------------------------------------------------------------------------------------
 
 \\section*{{{lettre}}}
 
-\\begin{{multicols}}{{2}}
+\\begin{{multicols}}{{{col_n}}}
 
 """
 
@@ -250,15 +252,14 @@ def generer_latex(entrees):
 
         if lettre != lettre_actuelle:
 
-            # Fermer le multicols précédent
             if lettre_actuelle is not None:
-                lignes.append(
-                    fin_section()
-                )
+                lignes.append(fin_section())
 
-            # Nouvelle section
+            lignes.append(debut_section(lettre))
+
+            # Marque utilisée par la réglette alphabétique
             lignes.append(
-                debut_section(lettre)
+                f"\\extramarks{{{lettre}}}{{{lettre}}}\n"
             )
 
             lettre_actuelle = lettre

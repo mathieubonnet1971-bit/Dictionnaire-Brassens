@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.5.20)  26 AUG 2026 13:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.5.20)  26 AUG 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,17 +242,309 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/extramarks.sty
+Package: extramarks 2022/11/09 v4.1 Extra marks for LaTeX
+\@temptokenb=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box99
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count292
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count293
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count294
+\pgfsyssoftpath@bigbuffer@items=\count295
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count296
+\pgfmath@box=\box100
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count297
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box101
+\pgf@hbox=\box102
+\pgf@layerbox@main=\box103
+\pgf@picture@serial@count=\count298
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count299
+\pgf@shadingcount=\count300
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box104
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box105
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen257
+\pgf@nodesepend=\dimen258
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen259
+\pgffor@skip=\dimen260
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count301
+\pgfplotmarksize=\dimen261
+)
+\tikz@lastx=\dimen262
+\tikz@lasty=\dimen263
+\tikz@lastxsaved=\dimen264
+\tikz@lastysaved=\dimen265
+\tikz@lastmovetox=\dimen266
+\tikz@lastmovetoy=\dimen267
+\tikzleveldistance=\dimen268
+\tikzsiblingdistance=\dimen269
+\tikz@figbox=\box106
+\tikz@figbox@bg=\box107
+\tikz@tempbox=\box108
+\tikz@tempbox@bg=\box109
+\tikztreelevel=\count302
+\tikznumberofchildren=\count303
+\tikznumberofcurrentchild=\count304
+\tikz@fig@count=\count305
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count306
+\pgfmatrixcurrentcolumn=\count307
+\pgf@matrix@numberofcolumns=\count308
+)
+\tikz@expandcount=\count309
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box99
+\ttl@box=\box110
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen162
-\ttl@minus=\dimen163
-\ttl@toksa=\toks21
-\titlewidth=\dimen164
-\titlewidthlast=\dimen165
-\titlewidthfirst=\dimen166
+\ttl@plus=\dimen270
+\ttl@minus=\dimen271
+\ttl@toksa=\toks34
+\titlewidth=\dimen272
+\titlewidthlast=\dimen273
+\titlewidthfirst=\dimen274
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -269,28 +561,28 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 ) (./dico.aux)
 \openout1 = `dico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -332,70 +624,71 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 57.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 57.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 57.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 57.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 57.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 57.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 57.
-LaTeX Font Info:    Redeclaring math accent \check on input line 57.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 57.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 57.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 57.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 57.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 178.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 178.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 178.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 178.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 178.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 178.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 178.
+LaTeX Font Info:    Redeclaring math accent \check on input line 178.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 178.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 178.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 178.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 178.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 57.
+(Font)              `operators' in the math version `normal' on input line 178.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TeXGyrePagella(0)/m/n on input line 
-57.
+178.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 57.
+(Font)              `operators' in the math version `bold' on input line 178.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TeXGyrePagella(0)/m/n on input line
- 57.
+ 178.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TeXGyrePagella(0)/m/n --> TU/TeXGyrePagella(0)/m/n o
-n input line 57.
+n input line 178.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TeXGyrePagella(0)/m/it on input lin
-e 57.
+e 178.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TeXGyrePagella(0)/b/n on input line
- 57.
+ 178.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 57.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 178.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 57.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 178.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TeXGyrePagella(0)/m/n --> TU/TeXGyrePagella(0)/b/n o
-n input line 57.
+n input line 178.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TeXGyrePagella(0)/b/it on input li
-ne 57.
+ne 178.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 57.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 178.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 57.
-LaTeX Info: Redefining \microtypecontext on input line 57.
-Package microtype Info: Applying patch `item' on input line 57.
-Package microtype Info: Applying patch `toc' on input line 57.
-Package microtype Info: Applying patch `eqnum' on input line 57.
-Package microtype Info: Applying patch `footnote' on input line 57.
-Package microtype Info: Applying patch `verbatim' on input line 57.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 178.
+LaTeX Info: Redefining \microtypecontext on input line 178.
+Package microtype Info: Applying patch `item' on input line 178.
+Package microtype Info: Applying patch `toc' on input line 178.
+Package microtype Info: Applying patch `eqnum' on input line 178.
+Package microtype Info: Applying patch `footnote' on input line 178.
+Package microtype Info: Applying patch `verbatim' on input line 178.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1312,124 +1605,134 @@ Package microtype Info: Character `⁻' is missing
 (microtype)             in font `\TU/TeXGyrePagella(0)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
+(Font)              <7> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
+(Font)              <5> on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Overfull \hbox (15.0pt too wide) in paragraph at lines 9--9
+Overfull \hbox (15.0pt too wide) in paragraph at lines 10--10
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 11--11
+Overfull \hbox (15.0pt too wide) in paragraph at lines 12--12
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 13--13
+Overfull \hbox (15.0pt too wide) in paragraph at lines 14--14
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 15--15
+Overfull \hbox (15.0pt too wide) in paragraph at lines 16--16
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 17--17
+Overfull \hbox (15.0pt too wide) in paragraph at lines 18--18
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 19--19
+Overfull \hbox (15.0pt too wide) in paragraph at lines 20--20
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 21--21
+Overfull \hbox (15.0pt too wide) in paragraph at lines 22--22
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 23--23
+Overfull \hbox (15.0pt too wide) in paragraph at lines 24--24
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 25--25
+Overfull \hbox (15.0pt too wide) in paragraph at lines 26--26
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 27--27
+Overfull \hbox (15.0pt too wide) in paragraph at lines 28--28
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 29--29
+Overfull \hbox (15.0pt too wide) in paragraph at lines 30--30
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 31--31
+Overfull \hbox (15.0pt too wide) in paragraph at lines 32--32
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 33--33
+Overfull \hbox (15.0pt too wide) in paragraph at lines 34--34
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 35--35
+Underfull \hbox (badness 7030) in paragraph at lines 36--36
+\TU/TeXGyrePagella(0)/m/n/10 chant donné au petit matin,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TeXGyrePagella(0)/m/n/10 traditionnellement sous les
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 36--36
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 37--37
+Overfull \hbox (15.0pt too wide) in paragraph at lines 38--38
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]\TU/TeXGyrePagella(0)/b/n/10 Avoir l’âme en peine   $\OMS/cmsy/m/n/10 ^^O$
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 40--40
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 41--41
+Overfull \hbox (15.0pt too wide) in paragraph at lines 42--42
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 43--43
+Overfull \hbox (15.0pt too wide) in paragraph at lines 44--44
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 45--45
+Overfull \hbox (15.0pt too wide) in paragraph at lines 46--46
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 47--47
+Overfull \hbox (15.0pt too wide) in paragraph at lines 48--48
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 49--49
+Overfull \hbox (15.0pt too wide) in paragraph at lines 50--50
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 51--51
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 63--63
+Overfull \hbox (15.0pt too wide) in paragraph at lines 52--52
 []$[]$ 
  []
 
@@ -1489,6 +1792,11 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 85--85
  []
 
 
+Underfull \hbox (badness 5288) in paragraph at lines 87--87
+\TU/TeXGyrePagella(0)/m/n/10 lant de l’âne; par extension,
+ []
+
+
 Overfull \hbox (15.0pt too wide) in paragraph at lines 87--87
 []$[]$ 
  []
@@ -1499,128 +1807,317 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 89--89
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.28004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.28004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.28004pt}.
-
-[1
-
-]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 91--91
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\TU/TeXGyrePagella(0)/m/n/10 dictionnaire lexicographique.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]\TU/TeXGyrePagella(0)/m/it/10 Une adorable bucolique, Il est
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 93--93
+[]$[]$ 
+ []
+
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `\TU/TeXGyrePagella(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 94.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 94.
+[1
+
+]
+Underfull \hbox (badness 6300) in paragraph at lines 106--106
+[]\TU/TeXGyrePagella(0)/b/n/10 Callipyge  \TU/TeXGyrePagella(0)/m/it/10 adj. $\
+OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Qui a de
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 106--106
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 105--105
+Overfull \hbox (15.0pt too wide) in paragraph at lines 108--108
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 107--107
+Overfull \hbox (15.0pt too wide) in paragraph at lines 110--110
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 109--109
+Overfull \hbox (15.0pt too wide) in paragraph at lines 112--112
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 111--111
+Overfull \hbox (15.0pt too wide) in paragraph at lines 114--114
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 113--113
+Overfull \hbox (15.0pt too wide) in paragraph at lines 116--116
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 115--115
+Overfull \hbox (15.0pt too wide) in paragraph at lines 118--118
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 117--117
+Overfull \hbox (15.0pt too wide) in paragraph at lines 120--120
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 119--119
+Underfull \hbox (badness 5175) in paragraph at lines 122--122
+[]\TU/TeXGyrePagella(0)/b/n/10 Cornegidouilles   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeX
+GyrePagella(0)/m/n/10 À véri-
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 122--122
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 121--121
+Overfull \hbox (15.0pt too wide) in paragraph at lines 124--124
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 123--123
+Underfull \hbox (badness 7722) in paragraph at lines 126--126
+[]\TU/TeXGyrePagella(0)/b/n/10 Cotart   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagel
+la(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 126--126
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 125--125
+Overfull \hbox (15.0pt too wide) in paragraph at lines 128--128
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 127--127
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\TU/TeXGyrePagella(0)/m/n/10 dans un dictionnaire lexi-
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 130--130
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 129--129
+Overfull \hbox (15.0pt too wide) in paragraph at lines 132--132
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 131--131
+Overfull \hbox (15.0pt too wide) in paragraph at lines 134--134
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 133--133
+Overfull \hbox (15.0pt too wide) in paragraph at lines 136--136
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 135--135
+Overfull \hbox (15.0pt too wide) in paragraph at lines 138--138
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 137--137
+Overfull \hbox (15.0pt too wide) in paragraph at lines 140--140
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 139--139
+Overfull \hbox (15.0pt too wide) in paragraph at lines 142--142
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\TU/TeXGyrePagella(0)/m/n/10 dictionnaire lexicographique.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]\TU/TeXGyrePagella(0)/m/it/10 D’voir leurs héritiers marrons
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 144--144
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 153--153
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 155--155
-[]$[]$ 
+Underfull \hbox (badness 7468) in paragraph at lines 157--157
+[]\TU/TeXGyrePagella(0)/m/it/10 C’est le tonneau des Danaïdes
  []
 
 
@@ -1658,59 +2155,85 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 169--169
 []$[]$ 
  []
 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 171--171
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 173--173
+\TU/TeXGyrePagella(0)/m/n/10 ou femme, terme ancien ou
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 173--173
+[]$[]$ 
+ []
+
 [2]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 181--181
+Underfull \hbox (badness 7186) in paragraph at lines 186--186
+[]\TU/TeXGyrePagella(0)/b/n/10 Émule   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagell
+a(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 186--186
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 183--183
+Overfull \hbox (15.0pt too wide) in paragraph at lines 188--188
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+\TU/TeXGyrePagella(0)/m/it/10 allant pas par quatre chemins,
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 190--190
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 187--187
+Overfull \hbox (15.0pt too wide) in paragraph at lines 192--192
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\TU/TeXGyrePagella(0)/m/n/10 dictionnaire lexicographique.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]\TU/TeXGyrePagella(0)/m/it/10 J’ai l’espérance qu’elle viendra,
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 194--194
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 191--191
+Overfull \hbox (15.0pt too wide) in paragraph at lines 196--196
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 193--193
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 205--205
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 207--207
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 209--209
+Overfull \hbox (15.0pt too wide) in paragraph at lines 198--198
 []$[]$ 
  []
 
 
 Overfull \hbox (15.0pt too wide) in paragraph at lines 211--211
 []$[]$ 
+ []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 213--213
+\TU/TeXGyrePagella(0)/m/n/10 manger; recevoir ou manger
  []
 
 
@@ -1754,214 +2277,272 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 227--227
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 239--239
+Overfull \hbox (15.0pt too wide) in paragraph at lines 229--229
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 241--241
+Overfull \hbox (15.0pt too wide) in paragraph at lines 231--231
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 243--243
+Overfull \hbox (15.0pt too wide) in paragraph at lines 233--233
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 245--245
+Overfull \hbox (15.0pt too wide) in paragraph at lines 246--246
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 247--247
+Overfull \hbox (15.0pt too wide) in paragraph at lines 248--248
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 249--249
+Overfull \hbox (15.0pt too wide) in paragraph at lines 250--250
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 251--251
+Overfull \hbox (15.0pt too wide) in paragraph at lines 252--252
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+\TU/TeXGyrePagella(0)/m/n/10 dans un dictionnaire lexi-
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 254--254
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 255--255
+Overfull \hbox (15.0pt too wide) in paragraph at lines 256--256
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 257--257
+Overfull \hbox (15.0pt too wide) in paragraph at lines 258--258
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 259--259
+Overfull \hbox (15.0pt too wide) in paragraph at lines 260--260
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 261--261
+Underfull \hbox (badness 6445) in paragraph at lines 262--262
+[]\TU/TeXGyrePagella(0)/b/n/10 Gnons   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagell
+a(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 262--262
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 263--263
+Overfull \hbox (15.0pt too wide) in paragraph at lines 264--264
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 265--265
+Overfull \hbox (15.0pt too wide) in paragraph at lines 266--266
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 267--267
+Overfull \hbox (15.0pt too wide) in paragraph at lines 268--268
 []$[]$ 
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.28004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.28004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Overfull \hbox (15.0pt too wide) in paragraph at lines 270--270
+[]$[]$ 
+ []
 
-(fancyhdr)                \addtolength{\topmargin}{-0.28004pt}.
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+[]\TU/TeXGyrePagella(0)/b/n/10 Gourgandines   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyr
+ePagella(0)/m/n/10 À véri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+\TU/TeXGyrePagella(0)/m/n/10 fier dans un dictionnaire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+\TU/TeXGyrePagella(0)/m/it/10 gourgandines, Femme mi-chair
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 272--272
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 274--274
+[]\TU/TeXGyrePagella(0)/m/it/10 Et l’Espagne flambait dans un
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 274--274
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 276--276
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]\TU/TeXGyrePagella(0)/b/n/10 Guillerette   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyre
+Pagella(0)/m/n/10 À vérifier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\TU/TeXGyrePagella(0)/m/n/10 dans un dictionnaire lexi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\TU/TeXGyrePagella(0)/m/it/10 ton jupon, Courons guilleret,
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 278--278
+[]$[]$ 
+ []
 
 [3]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 269--269
+Overfull \hbox (15.0pt too wide) in paragraph at lines 291--291
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 271--271
+Underfull \hbox (badness 6675) in paragraph at lines 293--293
+[]\TU/TeXGyrePagella(0)/m/it/10 Callipyge à prétendre jouer les
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 293--293
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 283--283
+Overfull \hbox (15.0pt too wide) in paragraph at lines 306--306
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 285--285
+Overfull \hbox (15.0pt too wide) in paragraph at lines 308--308
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 297--297
+Overfull \hbox (15.0pt too wide) in paragraph at lines 321--321
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 299--299
+Overfull \hbox (15.0pt too wide) in paragraph at lines 323--323
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+\TU/TeXGyrePagella(0)/m/n/10 extravagante, maladroite ou
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 325--325
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 313--313
+Overfull \hbox (15.0pt too wide) in paragraph at lines 327--327
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]\TU/TeXGyrePagella(0)/b/n/10 Jouvenceau  \TU/TeXGyrePagella(0)/m/it/10 nom $\
+OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Jeune
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\TU/TeXGyrePagella(0)/m/n/10 homme, garçon encore très
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 329--329
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 317--317
+Overfull \hbox (15.0pt too wide) in paragraph at lines 342--342
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 319--319
+Underfull \hbox (badness 5119) in paragraph at lines 344--344
+[]\TU/TeXGyrePagella(0)/b/n/10 Lacune   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagel
+la(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 344--344
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 331--331
+Overfull \hbox (15.0pt too wide) in paragraph at lines 346--346
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 333--333
+Overfull \hbox (15.0pt too wide) in paragraph at lines 348--348
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 335--335
+Overfull \hbox (15.0pt too wide) in paragraph at lines 350--350
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 337--337
+Overfull \hbox (15.0pt too wide) in paragraph at lines 352--352
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 339--339
+Overfull \hbox (15.0pt too wide) in paragraph at lines 354--354
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 341--341
-[]$[]$ 
+Underfull \hbox (badness 5231) in paragraph at lines 356--356
+[]\TU/TeXGyrePagella(0)/b/n/10 Lurette   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePage
+lla(0)/m/n/10 À vérifier dans
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 343--343
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 345--345
+Overfull \hbox (15.0pt too wide) in paragraph at lines 356--356
 []$[]$ 
  []
 
 [4]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 357--357
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 359--359
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 361--361
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 363--363
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 365--365
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 367--367
-[]$[]$ 
- []
-
-
 Overfull \hbox (15.0pt too wide) in paragraph at lines 369--369
 []$[]$ 
  []
@@ -1972,8 +2553,24 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 371--371
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+\TU/TeXGyrePagella(0)/m/n/10 grossière, malhonnête ou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+\TU/TeXGyrePagella(0)/m/n/10 méprisable; parfois terme
+ []
+
+
 Overfull \hbox (15.0pt too wide) in paragraph at lines 373--373
 []$[]$ 
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 375--375
+[]\TU/TeXGyrePagella(0)/b/n/10 Maritornes  \TU/TeXGyrePagella(0)/m/it/10 nom $\
+OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Femmes
  []
 
 
@@ -2002,48 +2599,79 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 383--383
  []
 
 
+Overfull \hbox (15.0pt too wide) in paragraph at lines 385--385
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 387--387
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 389--389
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 391--391
+\TU/TeXGyrePagella(0)/m/n/10 Dévaster, ravager; causer de
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 391--391
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 393--393
+[]$[]$ 
+ []
+
+
 Overfull \hbox (15.0pt too wide) in paragraph at lines 395--395
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 397--397
+Overfull \hbox (15.0pt too wide) in paragraph at lines 408--408
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 399--399
+Overfull \hbox (15.0pt too wide) in paragraph at lines 410--410
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 401--401
+Overfull \hbox (15.0pt too wide) in paragraph at lines 412--412
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 413--413
+Overfull \hbox (15.0pt too wide) in paragraph at lines 414--414
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 415--415
+Overfull \hbox (15.0pt too wide) in paragraph at lines 427--427
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 417--417
+Overfull \hbox (15.0pt too wide) in paragraph at lines 429--429
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 419--419
+Overfull \hbox (15.0pt too wide) in paragraph at lines 431--431
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 421--421
-[]$[]$ 
+Underfull \hbox (badness 6268) in paragraph at lines 433--433
+[]\TU/TeXGyrePagella(0)/b/n/10 Oriflamme  \TU/TeXGyrePagella(0)/m/it/10 nom $\O
+MS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Bannière
  []
 
 
@@ -2056,98 +2684,104 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 435--435
 []$[]$ 
  []
 
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 437--437
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 439--439
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 441--441
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 443--443
-[]$[]$ 
- []
-
 [5]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 445--445
+Overfull \hbox (15.0pt too wide) in paragraph at lines 448--448
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 447--447
+Overfull \hbox (15.0pt too wide) in paragraph at lines 450--450
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 449--449
+Overfull \hbox (15.0pt too wide) in paragraph at lines 452--452
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 451--451
+Overfull \hbox (15.0pt too wide) in paragraph at lines 454--454
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 453--453
+Underfull \hbox (badness 7012) in paragraph at lines 456--456
+\TU/TeXGyrePagella(0)/m/n/10 en scène un berger ou une
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 456--456
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 455--455
+Overfull \hbox (15.0pt too wide) in paragraph at lines 458--458
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 457--457
+Overfull \hbox (15.0pt too wide) in paragraph at lines 460--460
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 459--459
+Overfull \hbox (15.0pt too wide) in paragraph at lines 462--462
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 461--461
+Overfull \hbox (15.0pt too wide) in paragraph at lines 464--464
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 463--463
+Overfull \hbox (15.0pt too wide) in paragraph at lines 466--466
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 465--465
+Overfull \hbox (15.0pt too wide) in paragraph at lines 468--468
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 467--467
+Overfull \hbox (15.0pt too wide) in paragraph at lines 470--470
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 479--479
+Overfull \hbox (15.0pt too wide) in paragraph at lines 472--472
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 481--481
+Overfull \hbox (15.0pt too wide) in paragraph at lines 474--474
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 493--493
+Overfull \hbox (15.0pt too wide) in paragraph at lines 476--476
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 478--478
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 480--480
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 482--482
+[]\TU/TeXGyrePagella(0)/b/n/10 Probes   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagel
+la(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 482--482
 []$[]$ 
  []
 
@@ -2162,68 +2796,80 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 497--497
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 499--499
+Overfull \hbox (15.0pt too wide) in paragraph at lines 510--510
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 511--511
+Overfull \hbox (15.0pt too wide) in paragraph at lines 512--512
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 513--513
+Overfull \hbox (15.0pt too wide) in paragraph at lines 514--514
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 515--515
-[]$[]$ 
+Underfull \hbox (badness 6110) in paragraph at lines 516--516
+[]\TU/TeXGyrePagella(0)/b/n/10 Rogaton  \TU/TeXGyrePagella(0)/m/it/10 nom $\OMS
+/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Objet sans
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 517--517
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 519--519
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 521--521
-[]$[]$ 
- []
-
-
-Underfull \hbox (badness 5696) in paragraph at lines 523--523
-[]\TU/TeXGyrePagella(0)/b/n/10 Séguedille  \TU/TeXGyrePagella(0)/m/it/10 nom $\
-OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Danse et chant espagnols
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 523--523
-[]$[]$ 
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 525--525
+Overfull \hbox (15.0pt too wide) in paragraph at lines 516--516
 []$[]$ 
  []
 
 [6]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 527--527
-[]$[]$ 
- []
-
-
 Overfull \hbox (15.0pt too wide) in paragraph at lines 529--529
 []$[]$ 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]\TU/TeXGyrePagella(0)/b/n/10 Sacristain  \TU/TeXGyrePagella(0)/m/it/10 nom $\
+OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Personne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\TU/TeXGyrePagella(0)/m/n/10 chargée de la garde et de
+ []
+
+
 Overfull \hbox (15.0pt too wide) in paragraph at lines 531--531
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 533--533
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 535--535
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 537--537
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 539--539
+[]\TU/TeXGyrePagella(0)/b/n/10 Sbires   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagel
+la(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 539--539
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 541--541
 []$[]$ 
  []
 
@@ -2248,88 +2894,142 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 549--549
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 551--551
+Overfull \hbox (15.0pt too wide) in paragraph at lines 562--562
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 553--553
+Overfull \hbox (15.0pt too wide) in paragraph at lines 564--564
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 555--555
+Overfull \hbox (15.0pt too wide) in paragraph at lines 566--566
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 557--557
+Overfull \hbox (15.0pt too wide) in paragraph at lines 568--568
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 559--559
+Overfull \hbox (15.0pt too wide) in paragraph at lines 570--570
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 571--571
+Overfull \hbox (15.0pt too wide) in paragraph at lines 572--572
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 573--573
+Overfull \hbox (15.0pt too wide) in paragraph at lines 574--574
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 575--575
+Overfull \hbox (15.0pt too wide) in paragraph at lines 576--576
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 577--577
+Underfull \hbox (badness 7851) in paragraph at lines 578--578
+[]\TU/TeXGyrePagella(0)/b/n/10 Transi   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagel
+la(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 578--578
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 579--579
+Overfull \hbox (15.0pt too wide) in paragraph at lines 591--591
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 581--581
+Underfull \hbox (badness 7595) in paragraph at lines 593--593
+[]\TU/TeXGyrePagella(0)/b/n/10 Vauvert  \TU/TeXGyrePagella(0)/m/it/10 nom propr
+e / locu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+\TU/TeXGyrePagella(0)/m/it/10 tion $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)
+/m/n/10 Nom historique du
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+\TU/TeXGyrePagella(0)/m/n/10 Val-de-Green; présent dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 593--593
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 583--583
+Overfull \hbox (15.0pt too wide) in paragraph at lines 595--595
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 585--585
+Overfull \hbox (15.0pt too wide) in paragraph at lines 597--597
 []$[]$ 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 587--587
+Overfull \hbox (15.0pt too wide) in paragraph at lines 599--599
 []$[]$ 
  []
 
-) [7] (./dico.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
+\TU/TeXGyrePagella(0)/m/n/10 emportée pour un voyage.
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 601--601
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 603--603
+[]\TU/TeXGyrePagella(0)/b/n/10 Vicaire   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePage
+lla(0)/m/n/10 À vérifier dans
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 603--603
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 605--605
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 607--607
+[]$[]$ 
+ []
+
+[7]) (./dico.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6817 strings out of 474878
- 160979 string characters out of 5762516
- 1944627 words of memory out of 5000000
- 28829 multiletter control sequences out of 15000+600000
- 558237 words of font info for 57 fonts, out of 8000000 for 9000
+ 17203 strings out of 474878
+ 387140 string characters out of 5762516
+ 1948627 words of memory out of 5000000
+ 38985 multiletter control sequences out of 15000+600000
+ 560084 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,11n,93p,1001b,414s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,14n,107p,1001b,833s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on dico.pdf (7 pages).
