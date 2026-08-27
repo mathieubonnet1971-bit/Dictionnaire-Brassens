@@ -26,16 +26,8 @@
 %----------------------------------------------------------------------------------------------------------
 
 % Header
-\def\GetMarkWord#1#2#3#4{#1}
-\fancyhead[LO,LE]{%
-    \color{headcolor}\slshape
-    \expandafter\GetMarkWord\firstmark
-}
-
-\fancyhead[RE,RO]{%
-    \color{headcolor}\slshape
-    \expandafter\GetMarkWord\botmark
-}
+\fancyhead[LO,LE]{\color{headcolor}\slshape\rightmark}
+\fancyhead[RE,RO]{\color{headcolor}\slshape\leftmark}
 
 \pagestyle{fancy}
 

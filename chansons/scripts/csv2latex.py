@@ -20,7 +20,7 @@ TEX_SORTIE = Path("../lexique.tex")
 
 # Seules les entrées marquées OUI sont exportées.
 VALEUR_INCLURE = "OUI"
-col_n = 3   # Column number
+col_n = 2   # Column number
 
 # ============================================================
 # OUTILS

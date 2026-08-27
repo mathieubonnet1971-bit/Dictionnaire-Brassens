@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.5.20)  26 AUG 2026 18:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.5.20)  26 AUG 2026 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1627,42 +1627,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]\TU/TeXGyrePagella(0)/b/n/10 À vau-l’eau   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyre
-Pagella(0)/m/n/10 En se
- []
-
-
-Underfull \hbox (badness 7030) in paragraph at lines 38--38
-\TU/TeXGyrePagella(0)/m/n/10 chant donné au petit matin,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-\TU/TeXGyrePagella(0)/m/n/10 traditionnellement sous les
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Regarder quelqu’un avec
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
-[]\TU/TeXGyrePagella(0)/b/n/10 Billevesées   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyre
-Pagella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 89--89
-[]\TU/TeXGyrePagella(0)/b/n/10 Braire  \TU/TeXGyrePagella(0)/m/it/10 verbe $\OM
-S/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Crier, en
- []
-
 LaTeX Font Info:    Font shape `TU/TeXGyrePagella(0)/m/sl' in size <10> not ava
 ilable
 (Font)              Font shape `TU/TeXGyrePagella(0)/m/it' tried instead on inp
-ut line 93.
+ut line 92.
 Package microtype Info: Character `‥' is missing
 (microtype)             in font `\TU/TeXGyrePagella(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1729,238 +1697,28 @@ Package microtype Info: Character `⁺' is missing
 Package microtype Info: Character `⁻' is missing
 (microtype)             in font `\TU/TeXGyrePagella(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
+
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-[]\TU/TeXGyrePagella(0)/m/it/10 Une adorable bucolique, Il est
+] [2] [3] [4]
+Underfull \hbox (badness 6380) in paragraph at lines 383--383
+[]\TU/TeXGyrePagella(0)/b/n/10 Maugrabine  \TU/TeXGyrePagella(0)/m/it/10 nom $\
+OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Femme originaire du
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]\TU/TeXGyrePagella(0)/b/n/10 Complainte   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyreP
-agella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]\TU/TeXGyrePagella(0)/b/n/10 Croquantes   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyreP
-agella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-[]\TU/TeXGyrePagella(0)/b/n/10 Croquignol  \TU/TeXGyrePagella(0)/m/it/10 adj./n
-om $\OMS/cmsy/m/n/10 ^^O$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]\TU/TeXGyrePagella(0)/m/it/10 D’voir leurs héritiers marrons
- []
-
-
-Underfull \hbox (badness 7468) in paragraph at lines 159--159
-[]\TU/TeXGyrePagella(0)/m/it/10 C’est le tonneau des Danaïdes
- []
-
-
-Underfull \hbox (badness 6047) in paragraph at lines 175--175
-\TU/TeXGyrePagella(0)/m/n/10 ou femme, terme ancien ou
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-\TU/TeXGyrePagella(0)/m/it/10 allant pas par quatre chemins,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]\TU/TeXGyrePagella(0)/m/it/10 J’ai l’espérance qu’elle viendra,
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 215--215
-\TU/TeXGyrePagella(0)/m/n/10 manger; recevoir ou manger
- []
-
-
-Underfull \hbox (badness 6157) in paragraph at lines 276--276
-[]\TU/TeXGyrePagella(0)/m/it/10 Et l’Espagne flambait dans un
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-[]\TU/TeXGyrePagella(0)/b/n/10 Guillerette   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyre
-Pagella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 6978) in paragraph at lines 280--280
-\TU/TeXGyrePagella(0)/m/n/10 icographique.  []\TU/TeXGyrePagella(0)/m/it/10 Lai
-sse-moi
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 295--295
-[]\TU/TeXGyrePagella(0)/m/it/10 Callipyge à prétendre jouer les
- []
-
-
-Underfull \hbox (badness 7415) in paragraph at lines 327--327
-[]\TU/TeXGyrePagella(0)/b/n/10 Jobastre  \TU/TeXGyrePagella(0)/m/it/10 nom/adj.
- $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Per-
- []
-
-[4]
-Underfull \hbox (badness 7963) in paragraph at lines 371--371
-[]\TU/TeXGyrePagella(0)/b/n/10 Macchabées   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyreP
-agella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
-[]\TU/TeXGyrePagella(0)/b/n/10 Maraud  \TU/TeXGyrePagella(0)/m/it/10 nom/adj. $
-\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
-\TU/TeXGyrePagella(0)/m/n/10 sonne grossière, malhonnête
- []
-
-
-Underfull \hbox (badness 6141) in paragraph at lines 393--393
-\TU/TeXGyrePagella(0)/m/n/10 Dévaster, ravager; causer de
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 395--395
-[]\TU/TeXGyrePagella(0)/b/n/10 Morbleu  \TU/TeXGyrePagella(0)/m/it/10 interj. $
-\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Juron-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
-[]\TU/TeXGyrePagella(0)/b/n/10 Naturalibus  \TU/TeXGyrePagella(0)/m/it/10 locut
-ion $\OMS/cmsy/m/n/10 ^^O$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
-\TU/TeXGyrePagella(0)/m/n/10 Nu, sans vêtements, dans
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
-\TU/TeXGyrePagella(0)/m/n/10 l’expression « in naturalibus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 429--429
-[]\TU/TeXGyrePagella(0)/b/n/10 Odalisques   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyreP
-agella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 6364) in paragraph at lines 450--450
-[]\TU/TeXGyrePagella(0)/b/n/10 Palsambleus   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyre
-Pagella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
-[]\TU/TeXGyrePagella(0)/b/n/10 Pastourelle  \TU/TeXGyrePagella(0)/m/it/10 nom $
-\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Petit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
-\TU/TeXGyrePagella(0)/m/n/10 mettant en scène un berger
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
-[]\TU/TeXGyrePagella(0)/b/n/10 Phallocrate   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyre
-Pagella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 497--497
-[]\TU/TeXGyrePagella(0)/b/n/10 Quadrumane  \TU/TeXGyrePagella(0)/m/it/10 nom/ad
-j. $\OMS/cmsy/m/n/10 ^^O$
- []
-
-
-Underfull \hbox (badness 7221) in paragraph at lines 512--512
-[]\TU/TeXGyrePagella(0)/b/n/10 Réquisitoire   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyr
-ePagella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 6808) in paragraph at lines 516--516
-[]\TU/TeXGyrePagella(0)/b/n/10 Ritournelles   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyr
-ePagella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
-\TU/TeXGyrePagella(0)/m/n/10 chargée de la garde et de
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
-[]\TU/TeXGyrePagella(0)/b/n/10 Suffragettes   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyr
-ePagella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 6252) in paragraph at lines 570--570
-[]\TU/TeXGyrePagella(0)/b/n/10 Têtes chenues   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGy
-rePagella(0)/m/n/10 Têtes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
-[]\TU/TeXGyrePagella(0)/b/n/10 Teuton  \TU/TeXGyrePagella(0)/m/it/10 adj./nom $
-\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(0)/m/n/10 Alle-
- []
-
-
-Underfull \hbox (badness 7944) in paragraph at lines 595--595
-\TU/TeXGyrePagella(0)/m/it/10 cution $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyrePagella(
-0)/m/n/10 Nom historique du
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
-\TU/TeXGyrePagella(0)/m/n/10 Val-de-Green; présent dans
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
-[]\TU/TeXGyrePagella(0)/b/n/10 Ventrebleu   $\OMS/cmsy/m/n/10 ^^O$ \TU/TeXGyreP
-agella(0)/m/n/10 À véri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
-\TU/TeXGyrePagella(0)/m/n/10 emportée pour un voyage.
- []
-
-) [7] (./dico.aux)
+[5] [6]) [7] (./dico.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17629 strings out of 474878
- 392890 string characters out of 5762516
- 1948627 words of memory out of 5000000
- 39403 multiletter control sequences out of 15000+600000
+ 17628 strings out of 474878
+ 392879 string characters out of 5762516
+ 1946627 words of memory out of 5000000
+ 39402 multiletter control sequences out of 15000+600000
  558237 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,16n,93p,1001b,675s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,93p,1001b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on dico.pdf (7 pages).

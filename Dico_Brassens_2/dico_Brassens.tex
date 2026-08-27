@@ -1,0 +1,349 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,twoside]{article} % 10pt font size, A4 paper and two-sided margins
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\usepackage[french]{babel}
+
+\usepackage[top=2cm,bottom=2cm,left=1.9cm,right=1.9cm,columnsep=30pt]{geometry} % Document margins and spacings
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{palatino} % Use the Palatino font
+
+\usepackage{microtype} % Improves spacing
+
+\usepackage{multicol} % Required for splitting text into multiple columns
+
+\usepackage[bf,sf,center]{titlesec} % Required for modifying section titles - bold, sans-serif, centered
+
+\usepackage{sectsty}                % Secion titles
+
+\usepackage{gensymb}                % Symboles
+
+\usepackage{tikz}
+\usepackage{eso-pic}               % put things into background 
+\usepackage{rotating}               % Text rotation 
+\usepackage{ifthen}                 % If then package
+\usepackage{graphicx}               
+
+\usepackage{xcolor}    				% Color package
+\usepackage{bclogo}                 % To get \bcloupe
+
+\usepackage{xstring}
+\usepackage{lettrine}               % First letter as a capital letter
+
+\usepackage[hidelinks]{hyperref}    % For first letter link
+
+\usepackage{fancyhdr}               % Required for modifying headers and footers
+
+\usepackage{extramarks}             % For header
+
+\usepackage[pages=all]{background}  % Background
+
+\usepackage{blindtext}              % For links
+
+\setlength{\headheight}{13pt}
+
+% ------------------------------------------------------------
+% Présence des lettres dans le dictionnaire
+% ------------------------------------------------------------
+
+\newif\ifletterA \letterAfalse
+\newif\ifletterB \letterBfalse
+\newif\ifletterC \letterCfalse
+\newif\ifletterD \letterDfalse
+\newif\ifletterE \letterEfalse
+\newif\ifletterF \letterFfalse
+\newif\ifletterG \letterGfalse
+\newif\ifletterH \letterHfalse
+\newif\ifletterI \letterIfalse
+\newif\ifletterJ \letterJfalse
+\newif\ifletterK \letterKfalse
+\newif\ifletterL \letterLfalse
+\newif\ifletterM \letterMfalse
+\newif\ifletterN \letterNfalse
+\newif\ifletterO \letterOfalse
+\newif\ifletterP \letterPfalse
+\newif\ifletterQ \letterQfalse
+\newif\ifletterR \letterRfalse
+\newif\ifletterS \letterSfalse
+\newif\ifletterT \letterTfalse
+\newif\ifletterU \letterUfalse
+\newif\ifletterV \letterVfalse
+\newif\ifletterW \letterWfalse
+\newif\ifletterX \letterXfalse
+\newif\ifletterY \letterYfalse
+\newif\ifletterZ \letterZfalse
+
+% Active automatiquement la lettre correspondant à la première
+% lettre de l'entrée.
+\newcommand{\SetLetter}[1]{%
+  \ifcsname letter#1true\endcsname
+    \csname letter#1true\endcsname
+  \fi
+}
+
+
+% Test de la présence d'une lettre
+\newcommand{\LetterColor}[1]{%
+  \csname ifletter#1\endcsname
+    \color{lettercolor1}%
+  \else
+    \color{lettercolor2}%
+  \fi
+}
+
+% LAtin Alphabet
+\newcounter{Aletter}\renewcommand{\theAletter}{A}
+\newcounter{Bletter}\renewcommand{\theBletter}{B}
+\newcounter{Cletter}\renewcommand{\theCletter}{C}
+\newcounter{Dletter}\renewcommand{\theDletter}{D}
+\newcounter{Eletter}\renewcommand{\theEletter}{E}
+\newcounter{Fletter}\renewcommand{\theFletter}{F}
+\newcounter{Gletter}\renewcommand{\theGletter}{G}
+\newcounter{Hletter}\renewcommand{\theHletter}{H}
+\newcounter{Iletter}\renewcommand{\theIletter}{I}
+\newcounter{Jletter}\renewcommand{\theJletter}{J}
+\newcounter{Kletter}\renewcommand{\theKletter}{K}
+\newcounter{Lletter}\renewcommand{\theLletter}{L}
+\newcounter{Mletter}\renewcommand{\theMletter}{M}
+\newcounter{Nletter}\renewcommand{\theNletter}{N}
+\newcounter{Oletter}\renewcommand{\theOletter}{O}
+\newcounter{Pletter}\renewcommand{\thePletter}{P}
+\newcounter{Qletter}\renewcommand{\theQletter}{Q}
+\newcounter{Rletter}\renewcommand{\theRletter}{R}
+\newcounter{Sletter}\renewcommand{\theSletter}{S}
+\newcounter{Tletter}\renewcommand{\theTletter}{T}
+\newcounter{Uletter}\renewcommand{\theUletter}{U}
+\newcounter{Vletter}\renewcommand{\theVletter}{V}
+\newcounter{Wletter}\renewcommand{\theWletter}{W}
+\newcounter{Xletter}\renewcommand{\theXletter}{X}
+\newcounter{Yletter}\renewcommand{\theYletter}{Y}
+\newcounter{Zletter}\renewcommand{\theZletter}{Z}
+
+% Defining colors
+\definecolor{defcolor}{RGB}{44, 44, 44}
+\definecolor{entrycolor}{RGB}{41, 128, 185}
+\definecolor{loupecolor}{RGB}{88, 88, 88}
+\definecolor{excolor}{RGB}{100, 100, 100}
+\definecolor{headcolor}{RGB}{221, 101, 80}
+\definecolor{rulecolor}{RGB}{122, 122, 122}
+\definecolor{nobelcolor}{RGB}{55, 55, 55}
+\definecolor{awardcolor}{RGB}{55, 55, 55}
+\definecolor{flagcolor}{RGB}{55, 55, 55}
+\definecolor{domaincolor}{RGB}{55, 55, 55}
+\definecolor{bordercolor}{RGB}{222, 222, 222}
+\definecolor{lettercolor1}{RGB}{35, 155, 86}
+\definecolor{lettercolor2}{RGB}{150, 150, 150}
+\definecolor{lettercolor3}{RGB}{230, 230, 230}
+\definecolor{brickred}{rgb}{0.8, 0.25, 0.33}
+\definecolor{titlecolor}{RGB}{82, 190, 128}
+\definecolor{typecolor}{RGB}{125, 60, 152}
+\definecolor{separator}{rgb}{0.7,0.7,0.7}
+
+% vrule between multicol
+\setlength{\columnsep}{20pt}
+\setlength{\columnseprule}{0.01pt}
+\renewcommand{\columnseprulecolor}{\color{separator}}
+
+% Section font (for displaying letter)
+\sectionfont{\center\color{brickred}\fontsize{30}{30}\selectfont}
+
+% Loupe
+\renewcommand \logowidth {10pt}
+\newcommand{\loupe}{\\\phantom{}\hspace{3mm}\normalfont\small\em\color{loupecolor}\bcloupe\hspace{1mm}}
+\newcommand{\defnumber}{\phantom{}\hspace{0mm}\degree\hspace{2mm}}
+\newcommand{\celcius}{\phantom{}\hspace{0mm}\degree\hspace{0mm}C}
+
+% Defining color and more for every part
+\newcommand{\motII}{\normalfont\small\em\color{excolor}}
+\newcommand{\prononciation}{\normalfont\footnotesize\em\color{typecolor}}
+\newcommand{\ethymologie}{\normalfont\footnotesize\em\color{typecolor}}
+\newcommand{\typeI}{\normalfont\footnotesize\em\color{typecolor}}
+\newcommand{\typeII}{\normalfont\footnotesize\em\color{typecolor}}
+\newcommand{\pluriel}{\normalfont\footnotesize\em\color{excolor}}
+\newcommand{\definition}{\footnotesize}
+\newcommand{\synonyme}{\normalfont\footnotesize\em\color{excolor} Syn. }
+\newcommand{\antonyme}{\normalfont\footnotesize\em\color{excolor}}
+\newcommand{\exemple}{\normalfont\footnotesize\em\color{excolor}}
+\newcommand{\commentaire}{\loupe\normalfont\footnotesize\em\color{excolor}}
+
+% Background
+\AddToShipoutPictureBG{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[
+      opacity=0.05,
+      inner sep=0pt
+    ] at (current page.center) {%
+      \includegraphics[
+        width=\paperwidth,
+        height=\paperheight
+      ]{media/bkgd1}%
+    };
+  \end{tikzpicture}%
+}
+
+% Header
+\fancyhead[LO,LE]{\color{headcolor}\rightmark}
+\fancyhead[RE,RO]{\color{headcolor}\leftmark}
+
+\renewcommand{\headrulewidth}{1.00pt}\color{rulecolor} % Rule under the header
+\fancyfoot[C]{\textbf{\textsf{\thepage}}} % Bottom center footer
+\renewcommand{\footrulewidth}{1.00pt}\color{rulecolor} % Rule under the footer
+\pagestyle{fancy} % Use the custom headers and footers throughout the document
+
+
+% Entries
+% Entries
+\newcommand{\entry}[6]{%
+    \SetLetter{#1}%
+    \vspace*{1mm}%
+    \color{entrycolor}%
+    \markboth{#1}{#1}%
+    \textbf{#1}%
+    \color{defcolor}%
+    \ {#2}%
+    \ \textit{#3}%
+    \ $\bullet$\ {#4}%
+    {#5}%
+    {#6}%
+}
+
+% Redefining center
+\let\oldcenter\center
+\let\oldendcenter\endcenter
+\renewenvironment{center}{\setlength\topsep{-5pt}\oldcenter}{\oldendcenter}
+
+
+% Extracting entry first character
+\newcommand{\FirstChar}[1]{%
+    \StrLeft{#1}{1}[\firstletter]%
+    \StrRight{#1}{1}[\lastletter]%
+    \firstletter
+}
+
+\def \borderTextRight{\FirstChar{\rightmark}}
+\def \borderTextLeft{\FirstChar{\leftmark}}
+
+% \newcommand{\letter}[1]{\ifthenelse{\equal{#1}{A}}{\def \borderTextRight{OK}}{\def \borderTextRight{KO}}} % Under test
+
+\AddToShipoutPictureFG{% from package eso-pic: put something to the background
+	\ifthenelse{\isodd{\thepage}}{
+		% ODD page: left bar
+			\AtPageLowerLeft{% start the bar at the bottom right of the page
+			\put(\LenToUnit{\dimexpr\paperwidth-1cm},0){% move it to the top right
+				\color{bordercolor}
+                    \rule{1cm}{\paperheight}%
+			}%
+             % Side letters
+            \color{brickred}\put(575,820){\rotatebox{0}{\scalebox{2}{\borderTextRight}}}
+            \color{lettercolor2}\put(569.5,805){\rotatebox{0}{\scalebox{2}{-----}}}
+			            % \color{lettercolor3}\put(575,790){\rotatebox{0}{\scalebox{2}{A}}}
+             % Alphabet latéral
+                \LetterColor{A}\put(575,790){\scalebox{2}{A}}
+                \LetterColor{B}\put(577,760){\scalebox{2}{B}}
+                \LetterColor{C}\put(575,730){\scalebox{2}{C}}
+                \LetterColor{D}\put(575,700){\scalebox{2}{D}}
+                \LetterColor{E}\put(577,670){\scalebox{2}{E}}
+                \LetterColor{F}\put(577,640){\scalebox{2}{F}}
+                \LetterColor{G}\put(575,610){\scalebox{2}{G}}
+                \LetterColor{H}\put(575,580){\scalebox{2}{H}}
+                \LetterColor{I}\put(580,550){\scalebox{2}{I}}
+                \LetterColor{J}\put(580,520){\scalebox{2}{J}}
+                \LetterColor{K}\put(576,490){\scalebox{2}{K}}
+                \LetterColor{L}\put(577,460){\scalebox{2}{L}}
+                \LetterColor{M}\put(573,430){\scalebox{2}{M}}
+                \LetterColor{N}\put(575,400){\scalebox{2}{N}}
+                \LetterColor{O}\put(575,370){\scalebox{2}{O}}
+                \LetterColor{P}\put(577,340){\scalebox{2}{P}}
+                \LetterColor{Q}\put(575,310){\scalebox{2}{Q}}
+                \LetterColor{R}\put(577,280){\scalebox{2}{R}}
+                \LetterColor{S}\put(578,250){\scalebox{2}{S}}
+                \LetterColor{T}\put(577,220){\scalebox{2}{T}}
+                \LetterColor{U}\put(575,190){\scalebox{2}{U}}
+                \LetterColor{V}\put(576,160){\scalebox{2}{V}}
+                \LetterColor{W}\put(573,130){\scalebox{2}{W}}
+                \LetterColor{X}\put(575,100){\scalebox{2}{X}}
+                \LetterColor{Y}\put(575,70){\scalebox{2}{Y}}
+                \LetterColor{Z}\put(575,40){\scalebox{2}{Z}}
+
+            \color{lettercolor2}\put(569.5,25){\rotatebox{0}{\scalebox{2}{-----}}}
+			\color{brickred}\put(575,10){\rotatebox{0}{\scalebox{2}{\borderTextLeft}}}
+            
+		}%
+	
+	}%
+	{%
+		% EVEN page: right bar
+			\AtPageLowerLeft{% start the bar at the left bottom of the page
+			\color{bordercolor}
+                    \rule{1cm}{\paperheight}%
+
+            % Side letters
+            \color{brickred}\put(-15,820){\rotatebox{0}{\scalebox{2}{\borderTextRight}}}
+	    	\color{lettercolor2}\put(-15.5,805){\rotatebox{0}{\scalebox{2}{-----}}}
+			 % Alphabet latéral
+                \LetterColor{A}\put(-15,790){\scalebox{2}{A}}
+                \LetterColor{B}\put(-15,760){\scalebox{2}{B}}
+                \LetterColor{C}\put(-15,730){\scalebox{2}{C}}
+                \LetterColor{D}\put(-15,700){\scalebox{2}{D}}
+                \LetterColor{E}\put(-15,670){\scalebox{2}{E}}
+                \LetterColor{F}\put(-15,640){\scalebox{2}{F}}
+                \LetterColor{G}\put(-15,610){\scalebox{2}{G}}
+                \LetterColor{H}\put(-15,580){\scalebox{2}{H}}
+                \LetterColor{I}\put(-15,550){\scalebox{2}{I}}
+                \LetterColor{J}\put(-15,520){\scalebox{2}{J}}
+                \LetterColor{K}\put(-15,490){\scalebox{2}{K}}
+                \LetterColor{L}\put(-15,460){\scalebox{2}{L}}
+                \LetterColor{M}\put(-15,430){\scalebox{2}{M}}
+                \LetterColor{N}\put(-15,400){\scalebox{2}{N}}
+                \LetterColor{O}\put(-15,370){\scalebox{2}{O}}
+                \LetterColor{P}\put(-15,340){\scalebox{2}{P}}
+                \LetterColor{Q}\put(-15,310){\scalebox{2}{Q}}
+                \LetterColor{R}\put(-15,280){\scalebox{2}{R}}
+                \LetterColor{S}\put(-15,250){\scalebox{2}{S}}
+                \LetterColor{T}\put(-15,220){\scalebox{2}{T}}
+                \LetterColor{U}\put(-15,190){\scalebox{2}{U}}
+                \LetterColor{V}\put(-15,160){\scalebox{2}{V}}
+                \LetterColor{W}\put(-15,130){\scalebox{2}{W}}
+                \LetterColor{X}\put(-15,100){\scalebox{2}{X}}
+                \LetterColor{Y}\put(-15,70){\scalebox{2}{Y}}
+                \LetterColor{Z}\put(-15,40){\scalebox{2}{Z}}
+
+            \color{lettercolor2}\put(-15.5,25){\rotatebox{0}{\scalebox{2}{-----}}}
+            \color{brickred}\put(-15,10){\rotatebox{0}{\scalebox{2}{\borderTextLeft}}}
+
+		}%
+	
+	}%
+}
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\begin{center}
+    \Large{\lettrine[lines=1]{\color{titlecolor}D}{ictionnaire de Mots Valises}}\\
+    \small{--- Alain Créhange ---}
+\end{center}
+\vspace{4mm}
+\hrule height 1.0pt
+\vspace{0mm}
+
+\hrule height 0.5pt
+
+\section*{U}
+\refstepcounter{Uletter}\label{s:Uletter}
+
+\hrule height 0.5pt
+
+\input{dictionnaire_entries}
+%\entry{bélître}{}{}{À vérifier dans un dictionnaire lexicographique.}{On murmure in petto : « C'est un vrai Nicodème, Un balourd, un bélître, un bel âne bâté. »}{CNRTL/TLFi ou Dictionnaire de l’Académie française}
+
+	%------------------------------------------------
+\end{document}

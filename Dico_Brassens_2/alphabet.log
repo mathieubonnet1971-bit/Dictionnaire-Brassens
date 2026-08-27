@@ -1,0 +1,272 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.20)  27 AUG 2026 17:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**alphabet.tex
+(./alphabet.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count195
+\l__pdf_internal_box=\box51
+)
+(./alphabet.aux)
+\openout1 = `alphabet.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count196
+\scratchdimen=\dimen143
+\scratchbox=\box52
+\nofMPsegments=\count197
+\nofMParguments=\count198
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen144
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<media/alphabet_Brassens_04.png, id=1, 1541.76pt x 1027.84pt>
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 12.
+
+(pdftex.def)             Requested size: 230.86249pt x 281.05pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 18.
+
+(pdftex.def)             Requested size: 235.88124pt x 281.05pt.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./media/alphabet_Brassens_
+04.png (PNG copy)>]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 24.
+
+(pdftex.def)             Requested size: 225.84375pt x 281.05pt.
+ [2]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 30.
+
+(pdftex.def)             Requested size: 225.84375pt x 281.05pt.
+ [3]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 36.
+
+(pdftex.def)             Requested size: 230.86249pt x 281.05pt.
+ [4]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 42.
+
+(pdftex.def)             Requested size: 225.84375pt x 281.05pt.
+ [5]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 48.
+
+(pdftex.def)             Requested size: 230.8625pt x 281.05pt.
+ [6]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 54.
+
+(pdftex.def)             Requested size: 230.86249pt x 240.9pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 60.
+
+(pdftex.def)             Requested size: 195.73125pt x 240.9pt.
+ [7]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 66.
+
+(pdftex.def)             Requested size: 205.76875pt x 240.9pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 72.
+
+(pdftex.def)             Requested size: 200.75pt x 240.9pt.
+ [8]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 78.
+
+(pdftex.def)             Requested size: 200.75pt x 240.9pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 84.
+
+(pdftex.def)             Requested size: 255.95625pt x 240.9pt.
+ [9]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 90.
+
+(pdftex.def)             Requested size: 256.96pt x 240.9pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 96.
+
+(pdftex.def)             Requested size: 230.86249pt x 230.86249pt.
+ [10]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 102
+.
+(pdftex.def)             Requested size: 215.80624pt x 230.86249pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 108
+.
+(pdftex.def)             Requested size: 225.84375pt x 230.86249pt.
+ [11]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 114
+.
+(pdftex.def)             Requested size: 225.84375pt x 230.86249pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 120
+.
+(pdftex.def)             Requested size: 210.7875pt x 230.86249pt.
+ [12]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 126
+.
+(pdftex.def)             Requested size: 225.84375pt x 230.86249pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 132
+.
+(pdftex.def)             Requested size: 230.8625pt x 230.86249pt.
+ [13]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 138
+.
+(pdftex.def)             Requested size: 245.91876pt x 215.80626pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 144
+.
+(pdftex.def)             Requested size: 321.2pt x 215.80626pt.
+
+[14]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 150
+.
+(pdftex.def)             Requested size: 210.7875pt x 215.80626pt.
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 156
+.
+(pdftex.def)             Requested size: 250.9375pt x 215.80626pt.
+ [15]
+File: media/alphabet_Brassens_04.png Graphic file (type png)
+<use media/alphabet_Brassens_04.png>
+Package pdftex.def Info: media/alphabet_Brassens_04.png  used on input line 162
+.
+(pdftex.def)             Requested size: 250.9375pt x 215.80626pt.
+ [16] (./alphabet.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1304 strings out of 474222
+ 21750 string characters out of 5748733
+ 1923975 words of memory out of 5000000
+ 23603 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,6n,65p,185b,125s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on alphabet.pdf (16 pages, 2907158 bytes).
+PDF statistics:
+ 114 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+

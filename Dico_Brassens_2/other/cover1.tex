@@ -1,0 +1,90 @@
+\documentclass{article}
+
+\usepackage[a4paper,margin=5pt]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{times,multicol,graphicx}
+\usepackage{xcoffins}
+\usepackage{times,color}
+\usepackage[pages=all]{background}  % Background
+\usepackage{tikz}
+\usepackage{graphicx}
+\usetikzlibrary{calc}
+
+\newcommand\cbox[2][.8]{{\setlength\fboxsep{0pt}\colorbox[gray]{#1}{#2}}}
+\pagestyle{empty}
+\begin{document}
+  \NewCoffin \result
+  \NewCoffin \aaa
+  \NewCoffin \bbb
+  \NewCoffin \ccc
+  \NewCoffin \ddd
+  \NewCoffin \eee
+  \NewCoffin \fff
+  \NewCoffin \rulei
+  \NewCoffin \ruleii
+  \NewCoffin \ruleiii
+  
+% Background
+\backgroundsetup{
+scale=1.1,
+color=black,
+opacity=0.9,
+angle=0,
+contents={%
+%   \includegraphics[width=\paperwidth,height=\paperheight]{media/bkgd1}
+%   \includegraphics[width=\paperwidth,height=\paperheight]{media/bkgd2}
+  \includegraphics[width=\paperwidth,height=\paperheight]{media/cover1}
+%   \ifthenelse{\isodd{\thepage}{\includegraphics[width=\paperwidth,height=\paperheight]{media/cover1}}{\includegraphics[width=\paperwidth,height=\paperheight]{media/cover2}}}
+%   \includegraphics[width=\paperwidth,height=\paperheight]{media/empty}
+  }%
+}
+
+% Colors
+\definecolor{titlecolor}{RGB}{250,250,250}
+\definecolor{barcolor}{RGB}{200, 200, 200}
+\color{titlecolor}
+
+\SetHorizontalCoffin \result {}
+\SetHorizontalCoffin \aaa {\fontsize{52}{50}\sffamily\bfseries Mots Valises}
+\SetHorizontalCoffin \bbb {\fontsize{52}{50}\sffamily\bfseries Dictionnaire de }
+\SetHorizontalCoffin \ccc {\fontsize{12}{10}\sffamily 
+                      \quad http://alain.crehange.pagesperso-orange.fr/frmotsval.html}
+\SetHorizontalCoffin \ddd {\fontsize{28}{20}\sffamily Par}
+\SetVerticalCoffin \eee {180pt}
+                 {\raggedleft\fontsize{31}{36}\sffamily\bfseries 
+                      Alain\\
+                      Créhange}
+\SetVerticalCoffin \fff {140pt}
+                 {\raggedright \fontsize{13}{14}\sffamily\bfseries 
+                       ABRICOLER \\
+                       BANCALEÇON \\
+                       CALCULOTTE \\
+                       DÉSINVOLT \\
+                       ESPILON \\
+                       IMBIBÉCILE \\
+                       NIGAUDINE \\
+                       SCALEPIN \\
+                       TRIPOTHÈSE \\
+                       VOLÉCIPÈDE \\
+                       ZORRODATEUR}
+
+\RotateCoffin \bbb {90}
+\RotateCoffin \ccc {270}
+
+\SetHorizontalCoffin \rulei  {\color{barcolor}\rule{6.5in}{1pc}}
+\SetHorizontalCoffin \ruleii {\color{barcolor}\rule{1pc}{23.5cm}}
+\SetHorizontalCoffin \ruleiii{\color{barcolor}\rule{10pt}{152pt}}
+
+
+\JoinCoffins \result                \aaa 
+\JoinCoffins \result[\aaa-t,\aaa-r] \rulei   [b,r](0pt,2mm)
+\JoinCoffins \result[\aaa-b,\aaa-l] \bbb     [B,r](2pt,0pt)
+\JoinCoffins \result[\bbb-t,\bbb-r] \ruleii  [t,r](-2mm,0pt)
+\JoinCoffins \result[\aaa-B,\aaa-r] \ccc     [B,l](66pt,14pc)
+\JoinCoffins \result[\bbb-l,\ccc-B] \fff     [t,r](-2mm,0pt)
+\JoinCoffins \result[\fff-b,\fff-r] \ruleiii [b,l](2mm,0pt)
+\JoinCoffins \result[\ccc-r,\fff-l] \eee     [B,r]
+\JoinCoffins \result[\eee-T,\eee-r] \ddd     [B,r](0pt,4pc)
+\TypesetCoffin \result
+\end{document}
